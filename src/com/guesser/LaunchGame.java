@@ -94,10 +94,6 @@ class Umpire {
 	 }
 }
 
-
-
-
-
 public class LaunchGame {
 
 	public static void main(String[] args) {
@@ -107,9 +103,6 @@ public class LaunchGame {
 		u.collectNumFromGuesser();
 		u.collectNumFromPlayer();
 		u.compare();
-		
-
 	}
-
 }
 
