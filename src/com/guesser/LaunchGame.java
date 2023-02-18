@@ -15,9 +15,6 @@ class Guesser {
 	}
 }
 
-
-
-
 class Player {
 	int pguessNum;
 	
@@ -30,9 +27,6 @@ class Player {
 	}
 }
 
-
-
-
 class Umpire {
 	int numFromGuesser;
 	int numFromPlayer1;
@@ -43,7 +37,6 @@ class Umpire {
 		Guesser g= new Guesser();
 		numFromGuesser = g.guessNumber();
 	}
-	 
 	 
 	 
 	 public void collectNumFromPlayer() {
@@ -78,9 +71,7 @@ class Umpire {
 			 }
 		 
 		 }
-		 
-		 
-		 
+		  
 		 else if(numFromGuesser == numFromPlayer2) {
 			 if(numFromGuesser == numFromPlayer3) {
 				 System.out.println("Player 2 and Player 3 won the game");
@@ -91,8 +82,6 @@ class Umpire {
 			 }
 			 
 		 }
-		 
-		 
 		 
 		 else if(numFromGuesser == numFromPlayer3) {
 			 System.out.println("Player 3 won the game");
