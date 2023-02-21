@@ -1,6 +1,4 @@
 package com.guesser;
-
-
 import java.util.Scanner;
 
 class Guesser {
